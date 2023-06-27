@@ -17,6 +17,8 @@ describe("Llenar formulario", () => {
     cy.get("#currentAddress").type("cerete cordoba")
     cy.get("#permanentAddress").type("villa celina")
     cy.get("#submit").click()
+     cy.get("#name").contains("Manuel Bolaño")
+   
   })
 
   })
