@@ -9,7 +9,7 @@ describe("Llenar formulario", () => {
     cy.visit("https://demoqa.com/elements")
 
     //METODO PARA ACCEDER AL VALOR DEL ELEMENTO
-    //PARA LOS LOCALIZADORES SE USA EL CSS SELECTOR
+    //PARA LOS LOCALIZADORES SE USA EL CSS SELECTOR.....
     cy.get("#app > div > div > div.pattern-backgound.playgound-header > div").contains!("Elements")
     cy.get("#item-0").click()
     cy.get("#userName").type("Manuel Bolaño")
